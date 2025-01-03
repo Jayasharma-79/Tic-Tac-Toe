@@ -121,6 +121,7 @@ AT SELECTION-SCREEN.
       PERFORM update_input.
       but7 = p1.
       PERFORM disable_but USING 'SC7'.
+      PERFORM result_cal.
 
     WHEN 'CLI8'.
       count = count + 1.
